@@ -1,0 +1,46 @@
+{
+    "code": "canvas-painting",
+    "class": "BlockCanvasPainting",
+    "entityClass": "BlockEntityCanvasPainting",
+    "drawtype": "json",
+    "variantgroups": [
+        { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+    ],
+    "behaviors": [
+        { "name": "HorizontalAttachable" }
+    ],
+    "shape": {
+        "base": "vspaint:block/canvas-painting",
+        "rotateYByType": {
+            "*-north": 180,
+            "*-east":  90,
+            "*-south": 0,
+            "*-west":  270
+        }
+    },
+    "textures": {
+        "painting": { "base": "vspaint:block/canvas-painting" },
+        "frame":    { "base": "vspaint:block/canvas-frame" }
+    },
+    "blockmaterial": "Other",
+    "resistance": 1.0,
+    "sounds": { "base": "game:block/cloth" },
+    "collisionbox": null,
+    "selectionbox": {
+        "x1": 0.0, "y1": 0.0, "z1": 0.9375, "x2": 1.0, "y2": 1.0, "z2": 1.0,
+        "rotateYByType": {
+            "*-north": 180,
+            "*-east":  90,
+            "*-south": 0,
+            "*-west":  270
+        }
+    },
+    "sideOpaque": { "all": false },
+    "sideAo": { "all": false },
+    "sideSolid": { "all": false },
+    "lightAbsorption": 0,
+    "attributes": {
+        "renderInventoryCube": false
+    },
+    "creativeinventory": { "general": ["*-north"], "vspaint": ["*-north"] }
+}

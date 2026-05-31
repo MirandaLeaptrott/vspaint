@@ -1,0 +1,11 @@
+[
+    {
+        "code": "paint-yellow",
+        "sealHours": 1,
+        "ingredients": [
+            { "type": "item", "code": "game:waterportion", "litres": 1 },
+            { "type": "item", "code": "vspaint:paintbase-yellow", "quantity": 1 }
+        ],
+        "output": { "type": "item", "code": "game:dye-yellow", "litres": 0.1 }
+    }
+]

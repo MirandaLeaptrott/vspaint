@@ -1,0 +1,51 @@
+[
+    
+
+
+ {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:powder-charcoal", "quantity": 2 }]},
+{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }]}
+	],
+	"output": { "type": "item", "code": "vspaint:paintbase-black", "stackSize": 1},
+"dependsOn": [{"modid": "aculinaryartillery"}]
+    },
+	{
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:powder-borax", "quantity": 2 }]},
+{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }]}
+	],
+	"output": { "type": "item", "code": "vspaint:paintbase-white", "stackSize": 1},
+"dependsOn": [{"modid": "aculinaryartillery"}]
+    },
+	 {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:fruit-redcurrant", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-redcurrant", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-redcurrant", "quantity": 6 }]},
+{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }]}
+	],
+	"output": { "type": "item", "code": "vspaint:paintbase-red", "stackSize": 1},
+"dependsOn": [{"modid": "aculinaryartillery"}]
+    },
+	 {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:fruit-blueberry", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-blueberry", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-blueberry", "quantity": 6 }]},
+{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }]}
+	],
+	"output": { "type": "item", "code": "vspaint:paintbase-blue", "stackSize": 1},
+"dependsOn": [{"modid": "aculinaryartillery"}]
+    },
+	 {
+	"ingredients": [
+		{"inputs": [{ "type": "item", "code": "game:fruit-whitecurrant", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-whitecurrant", "quantity": 6 }]},
+		{"inputs": [{ "type": "item", "code": "game:fruit-whitecurrant", "quantity": 6 }]},
+{"inputs": [{ "type": "item", "code": "aculinaryartillery:eggyolkportion-*", "quantity": 10 }]}
+	],
+	"output": { "type": "item", "code": "vspaint:paintbase-yellow", "stackSize": 1},
+"dependsOn": [{"modid": "aculinaryartillery"}]
+    }
+]

@@ -1,0 +1,12 @@
+{
+    "code": "canvas",
+    "maxstacksize": 8,
+    "shape": { "base": "vspaint:item/canvas" },
+    "textures": {
+        "canvas": { "base": "vspaint:item/canvas" }
+    },
+    "attributes": {
+        "heldItemPitchFollow": 0.5
+    },
+"creativeinventory": { "general": ["*"], "vspaint": ["*"] }
+}

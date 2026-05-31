@@ -1,0 +1,47 @@
+[
+    {
+        "ingredientPattern": "F,S",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:powder-charcoal",   "quantity": 1 },
+            "S": { "type": "item", "code": "game:egg-*",              "quantity": 2 }
+        },
+        "width": 1, "height": 2,
+        "output": { "type": "item", "code": "vspaint:paintbase-black", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,S",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fruit-redcurrant",   "quantity": 32 },
+            "S": { "type": "item", "code": "game:egg-*",              "quantity": 2 }
+        },
+        "width": 1, "height": 2,
+        "output": { "type": "item", "code": "vspaint:paintbase-red", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,S",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fruit-blueberry",    "quantity": 32 },
+            "S": { "type": "item", "code": "game:egg-*",              "quantity": 2 }
+        },
+        "width": 1, "height": 2,
+        "output": { "type": "item", "code": "vspaint:paintbase-blue", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,S",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:fruit-whitecurrant", "quantity": 32 },
+            "S": { "type": "item", "code": "game:egg-*",              "quantity": 2 }
+        },
+        "width": 1, "height": 2,
+        "output": { "type": "item", "code": "vspaint:paintbase-yellow", "quantity": 1 }
+    },
+    {
+        "ingredientPattern": "F,S",
+        "ingredients": {
+            "F": { "type": "item", "code": "game:powder-borax",       "quantity": 2 },
+            "S": { "type": "item", "code": "game:egg-*",              "quantity": 2 }
+        },
+        "width": 1, "height": 2,
+        "output": { "type": "item", "code": "vspaint:paintbase-white", "quantity": 1 }
+    }
+]

@@ -1,0 +1,11 @@
+{
+  "type": "code",
+  "modid": "vspaint",
+  "name": "VS Paint",
+  "side" : "universal",
+  "authors": ["MiraLeaps"],
+  "description": "Adds a painting easel that lets you make custom paintings",
+  "version": "1.2.8",
+  "requiredOnClient": true,
+  "requiredOnServer": true
+}

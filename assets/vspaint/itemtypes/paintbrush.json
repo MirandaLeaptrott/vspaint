@@ -1,0 +1,162 @@
+{
+    "code": "paintbrush",
+    "class": "ItemPaintbrush",
+    "variantgroups": [
+        { "code": "color", "states": ["empty", "white", "black", "darkgrey", "lightgrey", "red", "darkred", "orange", "yellow", "green", "darkgreen", "cyan", "blue", "darkblue", "purple", "brown", "pink"] },
+        { "code": "dryness", "states": ["wet", "dry"] }
+    ],
+    "behaviors": [{ "name": "PaintbrushDip" }],
+    "maxstacksize": 1,
+    "durability": 50,
+    "shape": { "base": "vspaint:item/paintbrush" },
+    "texturesByType": {
+        "paintbrush-empty-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/plain" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-white-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/white" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-black-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/black" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-darkgrey-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/liquid/dilutedchromite" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-lightgrey-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/gray" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-red-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/red" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-darkred-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/liquid/wine" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-orange-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/orange" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-yellow-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/yellow" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-green-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/green" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-darkgreen-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/plant/aquatic/algae6" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-blue-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/blue" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-cyan-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/creature/hotspringbacteria/87deg4" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-darkblue-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/glass/blue" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-purple-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/purple" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-brown-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/brown" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        },
+        "paintbrush-pink-*": {
+            "joint":      { "base": "game:block/wood/oak" },
+            "wood":       { "base": "game:item/tool/material/handle" },
+            "linen":      { "base": "game:item/tool/material/linen" },
+            "linenbrush": { "base": "game:block/cloth/linen/pink" },
+            "binding":     { "base": "game:item/tool/material/linen" }
+        }
+    },
+    "attributes": {
+        "heldItemPitchFollow": 0.75,
+        "alwaysPlayHeldReady": true
+    },
+    "guiTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 5, "y": 132, "z": -55 },
+        "origin": { "x": 0.53, "y": 0, "z": 0.4 },
+        "scale": 2.65
+    },
+    "fpHandTransform": {
+        "translation": { "x": 0.1, "y": 0.3, "z": 0 },
+        "rotation": { "x": 90, "y": 99, "z": -42 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 2.15
+    },
+    "tpHandTransform": {
+        "translation": { "x": -0.78, "y": -0.09, "z": -0.67 },
+        "rotation": { "x": 9, "y": -1, "z": -16 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 0.76
+    },
+    "groundTransform": {
+        "translation": { "x": 0, "y": 0, "z": 0 },
+        "rotation": { "x": 0, "y": 0, "z": 0 },
+        "origin": { "x": 0.5, "y": 0, "z": 0.5 },
+        "scale": 4.31
+    },
+    "creativeinventory": { "general": ["paintbrush-empty-wet"], "vspaint": ["*"] }
+}

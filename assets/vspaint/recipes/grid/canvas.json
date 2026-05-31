@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "_B_,BLB,_B_",
+    "ingredients": {
+        "L": { "type": "block", "code": "game:linen-*", },
+        "B": { "type": "item", "code": "game:plank-*", }
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "item", "code": "vspaint:canvas", "quantity": 2 }
+}

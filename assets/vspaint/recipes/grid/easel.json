@@ -1,0 +1,10 @@
+{
+    "ingredientPattern": "P_P,_PN,P_P",
+    "ingredients": {
+        "P": { "type": "item", "code": "game:plank-*"},
+        "N": { "type": "item", "code": "game:metalnailsandstrips-*"}
+    },
+    "width": 3,
+    "height": 3,
+    "output": { "type": "block", "code": "vspaint:easel-north", "quantity": 1 }
+}

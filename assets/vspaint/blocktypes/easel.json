@@ -1,0 +1,43 @@
+{
+    "code": "easel",
+    "class": "BlockEasel",
+    "entityClass": "BlockEntityEasel",
+    "drawtype": "json",
+    "variantgroups": [
+        { "code": "side", "loadFromProperties": "abstract/horizontalorientation" }
+    ],
+    "behaviors": [
+        { "name": "HorizontalOrientable" }
+    ],
+    "shape": {
+        "base": "vspaint:block/painting_easel",
+        "rotateYByType": {
+            "*-north": 270,
+            "*-east":  180,
+            "*-south": 90,
+            "*-west":  0
+        }
+    },
+    "textures": {
+        "wood":     { "base": "game:block/wood/oak" },
+        "frame":    { "base": "vspaint:block/canvas-frame" },
+        "painting": { "base": "vspaint:block/canvas-painting" }
+    },
+    "blockmaterial": "Wood",
+    "resistance": 2.0,
+    "sounds": { "base": "game:block/planks" },
+    "collisionbox": {
+        "x1": 0.125, "y1": 0.0, "z1": 0.125, "x2": 0.875, "y2": 1.5, "z2": 0.875
+    },
+    "selectionbox": {
+        "x1": 0.125, "y1": 0.0, "z1": 0.125, "x2": 0.875, "y2": 1.5, "z2": 0.875
+    },
+    "vertexFlags": { "leavesWindWave": false },
+    "sideOpaque": { "all": false },
+    "sideAo": { "all": false },
+    "sideSolid": { "all": false },
+    "attributes": {
+        "renderInventoryCube": false
+    },
+    "creativeinventory": { "general": ["*-north"], "vspaint": ["*-north"] }
+}
